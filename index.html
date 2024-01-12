@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Willson Alflen - Portfolio</title>
+    <meta name="description" content="Developer portfolio" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/img/john-doe.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">Willson Alflen</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link">Home</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About</a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link">Contact</a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html">Home</a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about">About</a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects">Projects</a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+        <h1 class="heading-primary">
+          Hey, My name is <br />
+          Willson Alflen
+        </h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            I am a passionate frontend developer based in Brazil. My
+            specialities are <strong>React JS</strong> and
+            <strong>Styled Components</strong>, and I love building apps that
+            are delightful to use.
+          </p>
+        </div>
+        <div class="home-hero__cta">
+          <a href="./#projects" class="btn btn--bg">See my projects</a>
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a
+            href="https://www.linkedin.com/in/willson-alflen/"
+            class="home-hero__social-icon-link"
+          >
+            <img
+              src="./assets/img/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://github.com/willson-alflen"
+            class="home-hero__social-icon-link"
+          >
+            <img
+              src="./assets/img/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="mailto:willson.alflen@gmail.com"
+            class="home-hero__social-icon-link"
+          >
+            <img
+              src="./assets/img/gmail-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="https://wa.me/5549988896193?text=I'd%20like%20to%20chat%20with%20you%20..."
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/img/whatsapp-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            All my projects include links to the code and live version. Click
+            the button to learn more about each one.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/efood-flavors.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Efood Flavors</h3>
+              <p class="projects__row-content-desc">
+                Embark on a culinary journey with Efood Flavors, where
+                discovering new dining experiences is both exciting and
+                user-friendly. Explore, order, and indulge in a seamless dining
+                adventure with our beautifully crafted front-end application.
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/eplay-games.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">EPLAY Games</h3>
+              <p class="projects__row-content-desc">
+                Discover, explore, and elevate your gaming journey with EPLAY
+                Games - where the world of video games comes to life. Immerse
+                yourself in a responsive and feature-rich e-commerce platform
+                tailored for gamers, by gamers.
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/img/mi-landing.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+                style="border: 1px solid #ccc"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">
+                Mission Impossible Landing
+              </h3>
+              <p class="projects__row-content-desc">
+                A heart-pounding "Mission Impossible" themed landing page built
+                with cutting-edge web technologies for a sleek, responsive, and
+                high-performance experience. The page immerses visitors in a
+                world of intrigue and suspense, drawing them deeper into the
+                action with every scroll.
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <span class="heading-sec__sub">
+            <p>
+              I'm a frontend developer based in Brazil. I love building apps
+              that solve real-world problems, and that are delightful to use. My
+              specialities include JavaScript, React JS and Styled Components.
+            </p>
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                My background is in teaching. I have a degree in Mathmatics with
+                7+ years of experince in this field but I felt it was about time
+                to move on. I started coding in 2021 and ever since, I have
+                remained deeply engaged. I'm currently looking for new
+                opportunities. If you have any questions, please don't hesitate
+                to reach out!
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            >
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">Bootstrap</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">TypeScript</div>
+              <div class="skills__skill">Styled Components</div>
+              <div class="skills__skill">Sass</div>
+              <div class="skills__skill">Gulp</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Figma</div>
+              <div class="skills__skill">Redux</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Please reach out if you have any questions! I'll be happy to jump on
+            a video call to brainstorm projects and new ideas. Send me an email
+            at
+            <strong>willson.alflen@gmail.com</strong> or call me directly at
+            <strong>+55 49 98889-6193</strong>
+          </span>
+        </h2>
+      </div>
+    </section>
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/willson-alflen/"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/linkedin-ico.png"
+                  alt="linkedin icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/willson-alflen"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/github-ico.png"
+                  alt="github icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="mailto:willson.alflen@gmail.com"
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/gmail-ico.png"
+                  alt="gmail icon"
+                />
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://wa.me/5549988896193?text=I'd%20like%20to%20chat%20with%20you%20..."
+              >
+                <img
+                  class="main-footer__icon"
+                  src="./assets/img/whatsapp-ico.png"
+                  alt="whatsapp icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Willson Alflen</h4>
+            <p class="main-footer__short-desc">
+              "Trust in the LORD with all your heart, and lean not on your own
+              understanding; In all your ways acknowledge Him, and He shall
+              direct your paths." - Proverbs 3:5-6
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="goToTopBtn" title="Go to top">
+      Top
+    </button>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
