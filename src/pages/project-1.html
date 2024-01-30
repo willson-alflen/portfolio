@@ -8,9 +8,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Mission Impossible - Landing</title>
+    <title>Case study - Efood Flavors</title>
     <meta name="description" content="Case study page of Project" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="@@PAGES_ENDERECO_DO_CSS" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,40 +22,44 @@
     <header class="header">
       <div class="header__content">
         <div class="header__logo-container">
-          <div class="header__logo-img-cont">
-            <img
-              src="./assets/img/willson.png"
-              alt="Willson Alflen Logo Image"
-              class="header__logo-img"
-            />
-          </div>
-          <span class="header__logo-sub">Willson Alflen</span>
+          <a href="../index.html" class="header__logo-anchor">
+            <div class="header__logo-img-cont">
+              <img
+                src="../assets/img/willson.png"
+                alt="Willson Alflen Logo Image"
+                class="header__logo-img"
+              />
+            </div>
+            <span class="header__logo-sub">Willson Alflen</span>
+          </a>
         </div>
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link">Home</a>
+              <a href="../index.html" class="header__link">Home</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <a href="../index.html#projects" class="header__link">
                 Projects
               </a>
             </li>
+
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About</a>
+              <a href="../index.html#about" class="header__link">About</a>
             </li>
+
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link">Contact</a>
+              <a href="../index.html#contact" class="header__link">Contact</a>
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
             <img
-              src="./assets/svg/ham-menu.svg"
+              src="../assets/svg/ham-menu.svg"
               alt="hamburger menu"
               class="header__main-ham-menu"
             />
             <img
-              src="./assets/svg/ham-menu-close.svg"
+              src="../assets/svg/ham-menu-close.svg"
               alt="hamburger menu close"
               class="header__main-ham-menu-close d-none"
             />
@@ -66,19 +70,19 @@
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html">Home</a>
+              <a href="../index.html">Home</a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects">Projects</a>
+              <a href="../index.html#projects">Projects</a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#about">About</a>
+              <a href="../index.html#about">About</a>
             </li>
 
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact">Contact</a>
+              <a href="../index.html#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -86,20 +90,19 @@
     </header>
     <section class="project-cs-hero">
       <div class="project-cs-hero__content">
-        <h1 class="heading-primary">Mission Impossible</h1>
+        <h1 class="heading-primary">Efood Flavors</h1>
         <div class="project-cs-hero__info">
           <p class="text-primary">
-            Embark on a thrilling digital mission with my Mission Impossible
-            Landing Page, an electrifying web experience designed to push the
-            boundaries of creativity and sharpen the skills in web development.
-            This project showcases a fusion of Sass, Gulp, Gulp-Imagemin,
-            Gulp-Uglify, and Sass - a dynamic combination that transforms the
-            ordinary into the extraordinary.
+            Welcome to Efood Flavors, a modern and intuitive front-end
+            application built using React, TypeScript, Styled-Components,
+            Formik, and Redux. This innovative project draws inspiration from
+            the popular iFood app, offering users a seamless and delightful
+            experience in exploring and ordering from a variety of restaurants.
           </p>
         </div>
         <div class="project-cs-hero__cta">
           <a
-            href="https://ebac-mission-impossible.vercel.app/"
+            href="https://efoodflavors.vercel.app/"
             class="btn btn--bg"
             target="_blank"
             >Live Link</a
@@ -112,51 +115,40 @@
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <img
-              src="./assets/img/mi-landing.png"
+              src="../assets/img/efood-flavors.png"
               alt="Project Image"
               class="project-details__showcase-img"
-              style="border: 1px solid #ccc"
             />
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
               <h3 class="project-details__content-title">Project Overview</h3>
               <h4 class="project-details__content-subtitle">
-                Sass-powered design:
+                Restaurant Listings:
               </h4>
               <p class="project-details__desc-para">
-                The page utilizes Sass for its powerful preprocessor
-                capabilities, allowing for modular, maintainable, and scalable
-                CSS code. This ensures the design is not only visually stunning
-                but also easy to update and adapt.
+                Users can browse through a curated list of diverse restaurants,
+                each offering a unique culinary experience. The restaurant
+                listings showcase enticing visuals, key details, and ratings to
+                help users make informed decisions.
               </p>
               <h4 class="project-details__content-subtitle">
-                Gulp build system:
+                Individual Restaurant Pages:
               </h4>
               <p class="project-details__desc-para">
-                Gulp is used to automate repetitive tasks like image
-                optimization and JavaScript minification. This streamlines the
-                development process and ensures the page loads quickly and
-                efficiently.
-              </p>
-              <h4 class="project-details__content-subtitle">Gulp-imagemin:</h4>
-              <p class="project-details__desc-para">
-                This plugin optimizes images without sacrificing quality,
-                resulting in faster loading times and a smoother user
-                experience.
-              </p>
-              <h4 class="project-details__content-subtitle">Gulp-uglify:</h4>
-              <p class="project-details__desc-para">
-                This plugin minifies JavaScript code, reducing its file size and
-                further improving page performance.
+                Clicking on a restaurant leads users to a dedicated page for
+                that establishment. Detailed information about the restaurant,
+                including its menu, operating hours, and contact details, is
+                presented in an organized and visually appealing layout.
               </p>
               <h4 class="project-details__content-subtitle">
-                Engaging Mission Impossible Theme:
+                User-Friendly Ordering:
               </h4>
               <p class="project-details__desc-para">
-                Immerse visitors in a Mission Impossible-inspired theme,
-                complete with captivating visuals, subtle animations, and an
-                overall atmosphere of suspense.
+                Streamlined order placement process using Formik for form
+                management, ensuring a smooth and efficient user experience.
+                Users can customize their orders, add items to the cart, and
+                seamlessly proceed to the checkout page.
               </p>
               <h4 class="project-details__content-subtitle">
                 Responsive Design:
@@ -166,6 +158,29 @@
                 enjoyable experience across various devices, from desktops to
                 smartphones.
               </p>
+              <h4 class="project-details__content-subtitle">
+                Styled-Components Integration:
+              </h4>
+              <p class="project-details__desc-para">
+                Leveraging Styled-Components for a modular and maintainable
+                styling approach, ensuring a cohesive and visually appealing
+                design throughout the application.
+              </p>
+              <h4 class="project-details__content-subtitle">
+                State Management with Redux:
+              </h4>
+              <p class="project-details__desc-para">
+                Utilizing Redux for efficient state management, ensuring a
+                centralized and predictable state for the application.
+              </p>
+              <h4 class="project-details__content-subtitle">
+                Type Safety with TypeScript:
+              </h4>
+              <p class="project-details__desc-para">
+                TypeScript is implemented to enhance code readability, catch
+                potential errors during development, and provide a robust
+                development environment.
+              </p>
             </div>
             <div class="project-details__tools-used">
               <h3 class="project-details__content-title">Tools Used</h3>
@@ -173,24 +188,24 @@
                 <div class="skills__skill">HTML</div>
                 <div class="skills__skill">CSS</div>
                 <div class="skills__skill">JavaScript</div>
-                <div class="skills__skill">SASS</div>
-                <div class="skills__skill">GULP</div>
-                <div class="skills__skill">GULP-Imagemin</div>
-                <div class="skills__skill">GULP-Uglify</div>
-                <div class="skills__skill">SASS</div>
+                <div class="skills__skill">React</div>
+                <div class="skills__skill">TypeScript</div>
+                <div class="skills__skill">Styled Components</div>
+                <div class="skills__skill">Formik</div>
+                <div class="skills__skill">Redux</div>
                 <div class="skills__skill">GIT</div>
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
-                href="https://ebac-mission-impossible.vercel.app/"
+                href="https://efoodflavors.vercel.app/"
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
                 >Live Link</a
               >
               <a
-                href="https://github.com/willson-alflen/ebac_mission_impossible_landing"
+                href="https://github.com/willson-alflen/ebac_food"
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
                 >Code Link</a
@@ -215,7 +230,7 @@
               >
                 <img
                   class="main-footer__icon"
-                  src="./assets/img/linkedin-ico.png"
+                  src="../assets/img/linkedin-ico.png"
                   alt="linkedin icon"
                 />
               </a>
@@ -226,7 +241,7 @@
               >
                 <img
                   class="main-footer__icon"
-                  src="./assets/img/github-ico.png"
+                  src="../assets/img/github-ico.png"
                   alt="github icon"
                 />
               </a>
@@ -237,7 +252,7 @@
               >
                 <img
                   class="main-footer__icon"
-                  src="./assets/img/gmail-ico.png"
+                  src="../assets/img/gmail-ico.png"
                   alt="gmail icon"
                 />
               </a>
@@ -248,7 +263,7 @@
               >
                 <img
                   class="main-footer__icon"
-                  src="./assets/img/whatsapp-ico.png"
+                  src="../assets/img/whatsapp-ico.png"
                   alt="whatsapp icon"
                 />
               </a>
@@ -270,6 +285,6 @@
       Top
     </button>
 
-    <script src="./index.js"></script>
+    <script src="@@PAGES_ENDERECO_DO_JS"></script>
   </body>
 </html>
