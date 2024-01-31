@@ -1,0 +1,34 @@
+.header {
+  background-color: #000;
+}
+
+.header a:focus {
+  outline: 5px solid #fff;
+}
+
+.header__logo-sub,
+.header__link {
+  color: #fff;
+}
+
+.home-hero,
+.btn--theme,
+.contact,
+#goToTopBtn {
+  background: #255b8e;
+}
+
+.heading-sec__sub,
+.projects__row-content-desc,
+p {
+  color: #595959;
+}
+
+.heading-sec__sub--lt {
+  color: #fff;
+}
+
+.skills__skill {
+  color: #000;
+  background-color: #969696;
+}

@@ -71,8 +71,12 @@ module.exports = function (grunt) {
         options: {
           patterns: [
             {
-              match: 'ENDERECO_DO_CSS',
+              match: 'ENDERECO_DO_CSS_GLOBAL',
               replacement: './css/style.css',
+            },
+            {
+              match: 'ENDERECO_DO_CSS_HIGH_CONTRAST',
+              replacement: './css/high-contrast.css',
             },
             {
               match: 'ENDERECO_DO_JS',
@@ -93,8 +97,12 @@ module.exports = function (grunt) {
         options: {
           patterns: [
             {
-              match: 'PAGES_ENDERECO_DO_CSS',
+              match: 'PAGES_ENDERECO_DO_CSS_GLOBAL',
               replacement: '../css/style.css',
+            },
+            {
+              match: 'PAGES_ENDERECO_DO_CSS_HIGH_CONTRAST',
+              replacement: '../css/high-contrast.css',
             },
             {
               match: 'PAGES_ENDERECO_DO_JS',
@@ -115,8 +123,12 @@ module.exports = function (grunt) {
         options: {
           patterns: [
             {
-              match: 'ENDERECO_DO_CSS',
+              match: 'ENDERECO_DO_CSS_GLOBAL',
               replacement: './css/style.min.css',
+            },
+            {
+              match: 'ENDERECO_DO_CSS_HIGH_CONTRAST',
+              replacement: './css/high-contrast.min.css',
             },
             {
               match: 'ENDERECO_DO_JS',
@@ -137,8 +149,12 @@ module.exports = function (grunt) {
         options: {
           patterns: [
             {
-              match: 'PAGES_ENDERECO_DO_CSS',
+              match: 'PAGES_ENDERECO_DO_CSS_GLOBAL',
               replacement: '../css/style.min.css',
+            },
+            {
+              match: 'PAGES_ENDERECO_DO_CSS_HIGH_CONTRAST',
+              replacement: '../css/high-contrast.min.css',
             },
             {
               match: 'PAGES_ENDERECO_DO_JS',

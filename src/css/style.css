@@ -74,7 +74,7 @@ input:focus,
 button:focus,
 a:focus,
 textarea:focus {
-  outline: none;
+  outline: 5px solid #000;
 }
 
 button {
@@ -248,7 +248,7 @@ textarea {
       rgba(var(--main-color), 0.8),
       rgba(var(--main-color), 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(../assets/svg/common-bg.svg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -438,7 +438,7 @@ textarea {
       rgba(var(--main-color), 0.8),
       rgba(var(--main-color), 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
 }
@@ -450,7 +450,7 @@ textarea {
       rgba(var(--main-color), 0.8),
       rgba(var(--main-color), 0.8)
     ),
-    url(../../assets/svg/common-bg.svg);
+    url(../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -579,7 +579,6 @@ textarea {
   position: fixed;
   width: 100%;
   z-index: 1000;
-  background: #000;
   background: #fff;
   box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
@@ -638,6 +637,7 @@ textarea {
 }
 .header__links {
   display: flex;
+  align-items: center;
 }
 @media only screen and (max-width: 37.5em) {
   .header__links {
@@ -772,6 +772,9 @@ textarea {
 }
 .main-footer__social-cont {
   margin-top: 2rem;
+}
+.main-footer__social-cont a:focus {
+  outline: 5px solid #fff;
 }
 .main-footer__icon {
   margin-right: 1rem;

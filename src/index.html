@@ -10,9 +10,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Willson Alflen - Portfolio</title>
     <meta name="description" content="Developer portfolio" />
-
-    <link rel="stylesheet" href="@@ENDERECO_DO_CSS" />
-
+    <link rel="stylesheet" href="@@ENDERECO_DO_CSS_GLOBAL" />
+    <link
+      rel="stylesheet"
+      href="@@ENDERECO_DO_CSS_HIGH_CONTRAST"
+      id="highContrastStyles"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,18 +39,46 @@
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link">Home</a>
+              <a
+                href="./#home"
+                class="header__link"
+                aria-label="Go to home page"
+                >Home</a
+              >
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
+              <a
+                href="./index.html#projects"
+                class="header__link"
+                aria-label="Go to projects section"
+              >
                 Projects
               </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">About</a>
+              <a
+                href="./index.html#about"
+                class="header__link"
+                aria-label="Go to about section"
+                >About</a
+              >
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link">Contact</a>
+              <a
+                href="./index.html#contact"
+                class="header__link"
+                aria-label="Go to contact section"
+                >Contact</a
+              >
+            </li>
+            <li class="header__link-wrapper">
+              <a
+                href="#"
+                id="highContrastToggle"
+                class="header__link"
+                aria-label="Click for a higher constrast color scheme"
+                >High Contrast</a
+              >
             </li>
           </ul>
           <div class="header__main-ham-menu-cont">
@@ -68,25 +99,38 @@
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./index.html">Home</a>
+              <a href="./#home" aria-label="Go to home page">Home</a>
             </li>
-
             <li class="header__sm-menu-link">
-              <a href="./index.html#about">About</a>
+              <a
+                href="./index.html#projects"
+                aria-label="Go to projects section"
+                >Projects</a
+              >
             </li>
-
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects">Projects</a>
+              <a href="./index.html#about" aria-label="Go to about section"
+                >About</a
+              >
             </li>
-
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact">Contact</a>
+              <a href="./index.html#contact" aria-label="Go to contact section"
+                >Contact</a
+              >
+            </li>
+            <li class="header__sm-menu-link">
+              <a
+                href="#"
+                id="highContrastToggle"
+                aria-label="Click for a higher constrast color scheme"
+                >High Contrast</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </header>
-    <section class="home-hero">
+    <section id="home" class="home-hero">
       <div class="home-hero__content">
         <h1 class="heading-primary">
           Hey, My name is <br />
@@ -108,11 +152,13 @@
         <div class="home-hero__social">
           <a
             href="https://www.linkedin.com/in/willson-alflen/"
+            target="_blank"
             class="home-hero__social-icon-link"
+            aria-label="Visit my LinkedIn profile"
           >
             <img
               src="./assets/img/linkedin-ico.png"
-              alt="icon"
+              alt="LinkedIn icon"
               class="home-hero__social-icon"
             />
           </a>
@@ -120,11 +166,13 @@
         <div class="home-hero__social">
           <a
             href="https://github.com/willson-alflen"
+            target="_blank"
             class="home-hero__social-icon-link"
+            aria-label="Visit my Github profile"
           >
             <img
               src="./assets/img/github-ico.png"
-              alt="icon"
+              alt="Github icon"
               class="home-hero__social-icon"
             />
           </a>
@@ -132,11 +180,13 @@
         <div class="home-hero__social">
           <a
             href="mailto:willson.alflen@gmail.com"
+            target="_blank"
             class="home-hero__social-icon-link"
+            aria-label="Send me an email"
           >
             <img
               src="./assets/img/gmail-ico.png"
-              alt="icon"
+              alt="Gmail icon"
               class="home-hero__social-icon"
             />
           </a>
@@ -144,11 +194,13 @@
         <div class="home-hero__social">
           <a
             href="https://wa.me/5549988896193?text=I'd%20like%20to%20chat%20with%20you%20..."
+            target="_blank"
             class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+            aria-label="Send me a Whatsapp message"
           >
             <img
               src="./assets/img/whatsapp-ico.png"
-              alt="icon"
+              alt="Whatsapp icon"
               class="home-hero__social-icon"
             />
           </a>
@@ -190,6 +242,7 @@
               <a
                 href="./pages/project-1.html"
                 class="btn btn--med btn--theme dynamicBgClr"
+                aria-label="Learn more about Efood Flavors"
                 >Learn more</a
               >
             </div>
@@ -214,6 +267,7 @@
               <a
                 href="./pages/project-2.html"
                 class="btn btn--med btn--theme dynamicBgClr"
+                aria-label="Learn more about EPLAY Games"
                 >Learn more</a
               >
             </div>
@@ -242,6 +296,7 @@
               <a
                 href="./pages/project-3.html"
                 class="btn btn--med btn--theme dynamicBgClr"
+                aria-label="Learn more about Mission Impossible Landing"
                 >Learn more</a
               >
             </div>
@@ -275,7 +330,10 @@
                 to reach out!
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+            <a
+              href="./#contact"
+              class="btn btn--med btn--theme dynamicBgClr"
+              aria-label="Contact me"
               >Contact</a
             >
           </div>
@@ -318,14 +376,13 @@
       <div class="main-container">
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
+            <h2 class="heading heading-sm main-footer__heading-sm">Social</h2>
             <div class="main-footer__social-cont">
               <a
                 target="_blank"
                 rel="noreferrer"
                 href="https://www.linkedin.com/in/willson-alflen/"
+                aria-label="Visit my LinkedIn profile"
               >
                 <img
                   class="main-footer__icon"
@@ -337,6 +394,7 @@
                 target="_blank"
                 rel="noreferrer"
                 href="https://github.com/willson-alflen"
+                aria-label="Visit my Github profile"
               >
                 <img
                   class="main-footer__icon"
@@ -348,6 +406,7 @@
                 target="_blank"
                 rel="noreferrer"
                 href="mailto:willson.alflen@gmail.com"
+                aria-label="Send me an email"
               >
                 <img
                   class="main-footer__icon"
@@ -359,6 +418,7 @@
                 target="_blank"
                 rel="noreferrer"
                 href="https://wa.me/5549988896193?text=I'd%20like%20to%20chat%20with%20you%20..."
+                aria-label="Send me a Whatsapp message"
               >
                 <img
                   class="main-footer__icon"
@@ -369,7 +429,7 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">Willson Alflen</h4>
+            <span class="heading heading-sm text-lt">Willson Alflen</span>
             <p class="main-footer__short-desc">
               "Trust in the LORD with all your heart, and lean not on your own
               understanding; In all your ways acknowledge Him, and He shall
